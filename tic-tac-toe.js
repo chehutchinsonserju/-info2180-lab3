@@ -15,6 +15,10 @@ window.onload = (event) =>
     {
       square.classList.add("square");
       square.innerHTML = "";
+      square.classList.remove("X");
+      //remove colours
+      square.classList.remove("O");
+      //remove colours
     });
     xoswitch = true;
   });
