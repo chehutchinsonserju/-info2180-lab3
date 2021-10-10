@@ -16,8 +16,7 @@ window.onload = (event) =>
       square.classList.add("square");
       square.innerHTML = "";
     });
-      console.log("test");
-      let xoswitch = true;
+    xoswitch = true;
   });
 
   squares.forEach((square)=> 
